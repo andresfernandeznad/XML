@@ -1,0 +1,20 @@
+<!-- Un atributo sirve para proporcionar información extra sobre el elemento que lo contiene. 
+
+Ejemplo
+
+EJEMPLO Dados los siguientes datos de un producto:
+ Código: G45
+ Nombre: Gorro de lana
+ Color: negro
+ Precio: 12.56-->
+
+<producto>
+	<codigo>G45</codigo> 
+	<nombre color="negro" precio="12.56">Gorro de lana</nombre> 
+</producto>
+
+<!-- Es incorrecto escribir -->
+<datos x="3" x="4" y="5"/>
+
+<!-- Sin embargo es correcto -->
+<datos x="3" X="4" y="5"/>

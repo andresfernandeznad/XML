@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona>     <!-- Elemento raíz para que la estructura sea como un árbol -->
+	<nombre>Elsa</nombre>
+	<mujer/> <!-- Un elemento vacío -->
+	<fecha-de-nacimiento>
+		<dia>18</dia>
+		<mes>6</mes>
+		<año>1996</año>
+	</fecha-de-nacimiento>
+	<ciudad>Pamplona</ciudad>
+</persona>
+
+<!-- Elementos con contenido mixto, tiene elementos y también texto por ejemplo. 
+<persona> 
+	<nombre>Elsa</nombre> vive en <ciudad>Pamplona</ciudad>. 
+</persona>-->

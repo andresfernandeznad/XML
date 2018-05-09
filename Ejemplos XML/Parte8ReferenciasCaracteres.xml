@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<productos> 
+	<nombre precio="12.56&#8364;">Gorro de lana</nombre> 
+	<nombre precio="16.99&#x20AC;">Gorro polar</nombre> 
+</productos>

@@ -1,0 +1,28 @@
+<!-- NORMAS DE SINTÁXIS BÁSICAS
+ Pueden contener letras minúsculas, letras mayúsculas, números, puntos “.”, guiones medios “-” y guiones bajos “_”.
+ Asimismo, pueden contener el carácter dos puntos “:”. No obstante, su uso se reserva para cuando se definan espacios de nombres.
+ El primer carácter tiene que ser una letra o un guion bajo “_”. -->
+
+<!-- MAL -->
+<Ciudad>Pamplona</ciudad> 
+<día>18</dia> 
+<mes>6<mes/> 
+<ciudad>Pamplona</finciudad> 
+<_rojo> 
+<2colores>Rojo y Naranja</2colores> 
+< Aficiones >Cine, Bailar, Nadar</ Aficiones > 
+<persona><nombre>Elsa</persona></nombre> 
+<color favorito>azul</color favorito>
+
+<!-- BIEN -->
+<Ciudad>Pamplona</Ciudad> 
+<día>18</día> 
+<mes>6</mes>
+<ciudad>Pamplona</ciudad> 
+<_rojo/> 
+<colores2>Rojo y Naranja</colores2> 
+<Aficiones >Cine, Bailar, Nadar</Aficiones > 
+<persona><nombre>Elsa</nombre></persona> 
+<color.favorito>azul</color.favorito> 
+<color-favorito>azul</color-favorito> 
+<color_favorito>azul</color_favorito>

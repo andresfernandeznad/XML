@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persona>
+	<nombre profesion='cantante'>Elsa</nombre>
+	<mujer/> <!-- Un elemento vacío -->
+	<fecha-de-nacimiento>
+		<dia>18</dia>
+		<mes>6</mes>
+		<año>1996</año>
+	</fecha-de-nacimiento>
+	<ciudad>Pamplona</ciudad>
+</persona>
+
+<!-- Como crear documentos xml-->
