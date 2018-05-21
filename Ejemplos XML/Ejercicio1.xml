@@ -1,79 +1,80 @@
-<!--1- Películas-->
-
 <?xml version="1.0" encoding="UTF-8"?>
-<cine>
-	<pelicula>
-		<titulo>Con faldas y a lo loco</titulo>
-		<director>Billy Wilder</director>
-	</pelicula>
-	<pelicula>
-		<director>Leo McCarey</director>
-		<titulo>Sopa de ganso</titulo>	
-	</pelicula>
-	<autor>barto</autor>
-</cine>
+<ejercicio1>
+	<!--1- Películas-->
+	<cine>
+		<pelicula>
+			<titulo>Con faldas y a lo loco</titulo>
+			<director>Billy Wilder</director>
+		</pelicula>
+		<pelicula>
+			<director>Leo McCarey</director>
+			<titulo>Sopa de ganso</titulo>	
+		</pelicula>
+		<autor>barto</autor>
+	</cine>
 
 
-<!--2- Deportistas-->
 
-<?xml version="1.0" encoding="UTF-8"?>
-<deportistas>
-	<deportista>
-		<deporte>Atletismo</deporte>
-		<nombre>Jesse Owens</nombre>
-	</deportista>
-	<deportista>
-		<deporte>Natación</deporte>
-		<nombre>Mark Spitz</nombre>
-	</deportista>
-</deportistas>
 
-<!--3- Texto-->
+	<!--2- Deportistas-->
+	<deportistas>
+		<deportista>
+			<deporte>Atletismo</deporte>
+			<nombre>Jesse Owens</nombre>
+		</deportista>
+		<deportista>
+			<deporte>Natación</deporte>
+			<nombre>Mark Spitz</nombre>
+		</deportista>
+	</deportistas>
 
-<?xml version="1.0" encoding="UTF-8"?>
-<texto>
-	<titulo>XML explicado a los niños</titulo>
-	<párrafo>El <abreviatura>XML</abreviatura>define cómo crear
-		lenguajes de marcas.</párrafo>
-	<párrafo>Las marcas se añaden a un documento de texto
-		para añadir información.</párrafo>
-	<http>www.example.org</http>
-</texto>
 
-<!--4- Información geográfica-->
 
-<?xml version="1.0" encoding="UTF-8"?>
-<geografiamundial>
-	<pais>
-	<nombre>España</nombre>
-	<continente>Europa</continente>
-	<capital>Madrid</capital>
-	</pais>
-</geografiamundial>
+	<!--3- Texto-->
+	<texto>
+		<titulo>XML explicado a los niños</titulo>
+		<párrafo>El <abreviatura>XML</abreviatura>define cómo crear
+			lenguajes de marcas.</párrafo>
+		<párrafo>Las marcas se añaden a un documento de texto
+			para añadir información.</párrafo>
+		<http>www.example.org</http>
+	</texto>
 
-<!--5- Programas-->
 
-<?xml version="1.0" encoding="UTF-8"?>
-<programas>
-	<programa nombre="Firefox" licencia="GPL" licencia2="MPL"/>
-	<programa nombre="OpenOffice.org" licencia="LGPL" />
-	<programa nombre="Inkscape" licencia="GPL" />
-</programas>
 
-<!--6- Mundiales de fútbol-->
+	<!--4- Información geográfica-->
+	<geografiamundial>
+		<pais>
+		<nombre>España</nombre>
+		<continente>Europa</continente>
+		<capital>Madrid</capital>
+		</pais>
+	</geografiamundial>
 
-<?xml version="1.0" encoding="UTF-8"?>
-<mundiales-de-futbol>
-	<mundial>
-		<pais nombre="España"/>
-		<fecha año="1982"/>
-	</mundial>
-</mundiales-de-futbol>
 
-<!--7- Medios de transporte-->
 
-<?xml version="1.0" encoding="UTF-8"?>
-<mediosDeTransporte>
-	<bicicleta velocidad="v&lt;100km/h" />
-	<patinete velocidadmaxima="50 km/h" />
-</mediosDeTransporte>
+	<!--5- Programas-->
+	<programas>
+		<programa nombre="Firefox" licencia="GPL" licencia2="MPL"/>
+		<programa nombre="OpenOffice.org" licencia="LGPL" />
+		<programa nombre="Inkscape" licencia="GPL" />
+	</programas>
+
+
+
+	<!--6- Mundiales de fútbol-->
+	<mundiales-de-futbol>
+		<mundial>
+			<pais nombre="España"/>
+			<fecha año="1982"/>
+		</mundial>
+	</mundiales-de-futbol>
+
+
+
+	<!--7- Medios de transporte-->
+	<mediosDeTransporte>
+		<bicicleta velocidad="v&lt;100km/h" />
+		<patinete velocidadmaxima="50 km/h" />
+	</mediosDeTransporte>
+</ejercicio1>
